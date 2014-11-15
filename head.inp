@@ -7,18 +7,30 @@
 \DeclareMathOperator{\St}{St}
 \DeclareMathOperator{\RM}{RM}
 \DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Eev}{ev}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\ev}{ev}
 
-\newcommand{\F}{\mathbb{F}}
-\newcommand{\T}{\mathbb{T}}
-\renewcommand{\C}{\mathbb{C}}
-\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\renewcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
 
 \newcommand{\FG}{\F G}
+
+\newcommand{\bbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 
 
 \newcounter{myexample}
 \newcommand{\Ex}{%
 \stepcounter{myexample}\textbf{Пример \arabic{myexample}. }%
+}
+
+\newcounter{myexercise}
+\newcommand{\Exec}{%
+\stepcounter{myexercise}\textbf{Упражнение \arabic{myexercise}. }%
 }
 
 \newtheorem{mylemma}{Лемма}
@@ -37,6 +49,13 @@
 \newcommand{\Nt}{%
 \stepcounter{mynote}\textbf{Замечание \arabic{mynote}. }%
 }
+
+
+\newcounter{mystatement}
+\newcommand{\Stm}{%
+\stepcounter{mystatement}\textbf{Утверждение \arabic{mystatement}. }%
+}
+
 
 \newcommand{\Pf}{%
 \vspace{-.4cm}
